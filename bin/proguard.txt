@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:7
+-keep class PrimeiroAPPAndroid.pack.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:7
+-keepclassmembers class * { *** adicao(...); }
+
+# onClick res/layout/main.xml #generated:31
+-keepclassmembers class * { *** dividir(...); }
+
+# onClick res/layout/main.xml #generated:23
+-keepclassmembers class * { *** multiplicacao(...); }
+
+# onClick res/layout/main.xml #generated:15
+-keepclassmembers class * { *** subtrair(...); }
+

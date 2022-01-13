@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+	android:id="@+id/textad"
+	android:layout_width="48dp"
+	android:layout_height="wrap_content"
+	android:text="+"
+	android:layout_x="28dp"
+	android:layout_y="178dp" 
+        android:onClick="adicao"/>
+<Button
+	android:id="@+id/textsub"
+	android:layout_width="50dp"
+	android:layout_height="wrap_content"
+	android:text="-"
+	android:layout_x="99dp"
+	android:layout_y="177dp"
+        android:onClick="subtrair"/>
+<Button
+	android:id="@+id/textmult"
+	android:layout_width="52dp"
+	android:layout_height="wrap_content"
+	android:text="*"
+	android:layout_x="168dp"
+	android:layout_y="177dp"
+        android:onClick="multiplicacao"/>
+<Button
+	android:id="@+id/textdiv"
+	android:layout_width="52dp"
+	android:layout_height="wrap_content"
+	android:text="/"
+	android:layout_x="243dp"
+	android:layout_y="177dp" 
+        android:onClick="dividir"/>
+<EditText
+	android:id="@+id/textv1"
+	android:layout_width="108dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="116dp"
+	android:layout_y="33dp" />
+<EditText
+	android:id="@+id/textv2"
+	android:layout_width="108dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="116dp"
+	android:layout_y="90dp" />
+<TextView
+	android:id="@+id/widget39"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Valor 1"
+	android:layout_x="35dp"
+	android:layout_y="45dp" />
+<TextView
+	android:id="@+id/widget40"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Valor 2"
+	android:layout_x="33dp"
+	android:layout_y="103dp" />
+</AbsoluteLayout>
+
